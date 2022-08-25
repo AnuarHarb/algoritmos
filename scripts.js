@@ -1,4 +1,15 @@
 var contenedor = document.querySelector("#contendedor-historia");
+const headerInput = document.querySelector("#header-input"); // Input para escribir nombre
+const userSpan = document.getElementById("user-span"); // Titulo donde mostrar nombre
+
+function guardarUsuario() {
+  const nombreDeUsuario = headerInput.value; // lee el valor del input y lo guarda en una variable
+  console.log(nombreDeUsuario); // imprime la variable que guardamos
+  userSpan.innerHTML = nombreDeUsuario + " está resolviendo algoritmos"; // Mostrar el nombre en un elemento de html
+  // Quitar o añadir clases de css
+  userSpan.classList.remove("anonimo");
+  userSpan.classList.add("identificado");
+}
 
 function crearHistoria() {
   // variables para la historia strings / number / boolean

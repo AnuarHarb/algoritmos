@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4c4b63;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-button {
+  padding: 10px 5px;
+  background-color: #4fb7da;
+  font-size: 16px;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.header-button:hover {
+  background-color: #5386e4;
+}
+
+.header-button:active {
+  transform: translateY(2px);
+}
+
+.anonimo {
+  height: 800px;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.identificado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -3,9 +3,25 @@
   <head>
     <meta charset="utf-8" />
     <title>Algoritmos</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
   </head>
+
   <body>
-    <h1>Ejercicios de Algoritmos</h1>
+    <header>
+      <h1>Ejercicios de Algoritmos</h1>
+      <div>
+        <input id="header-input" type="text" />
+        <button class="header-button" onclick="guardarUsuario()">
+          Guardar usuario
+        </button>
+      </div>
+    </header>
+
+    <h2>
+      <span id="user-span" class="anonimo"
+        >Identifícate para empezar a resolver algoritmos</span
+      >
+    </h2>
     <button onclick="crearHistoria()">Crear Historia</button>
     <p id="contendedor-historia">Aquí va la historia</p>
 
